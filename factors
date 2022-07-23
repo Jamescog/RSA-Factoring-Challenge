@@ -3,7 +3,7 @@ from sys import argv
 import random
 """Factorize as many numbers as possible into a product of 2 smaller nums"""
 def generator(number):
-        """Takes the number and factorize it into procuct of two small numbers"""
+    """Takes the number and factorize it into procuct of two small numbers"""
     largest_number = random.getrandbits(128)
     for i in range(2, largest_number):
         if number % i == 0:
